@@ -1,0 +1,17 @@
+Following is the list of refactoring made for the Assignment 1.2:
+ 1. Implemented mouse interaction
+    a. Separate class for MouseListener, which defines the events on pressed and released
+    b. Debugged the issue with multiple mouse listeners
+ 2. implemented a way to highlight possible movements for picked piece
+ 3. Found a bug in checking isValidMovement that when actually it tries move, I was just deleting it. Changed it to add
+    functions tryPosition and revertPosition
+ 4. Pieces.Pawn possible movements had bugs
+    a. Was possible to move back, so changed condition
+    b. Can always move two, since I did not change the
+ 5. Changes from last week's comments: Change white, refactor big chunks of codes, moved pawn slightly to the right
+ 6. Moved things around a bit
+ 7. Added new piece pictures
+
+
+ TURN???
+ Buttons make then not clickable
